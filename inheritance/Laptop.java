@@ -7,7 +7,7 @@ public class Laptop extends Product {
         String operatingSystem;
 
         public Laptop() {
-            super(); //super constructor call
+            super(); //Inherits the properties of the super class i.e., product.
             System.out.println("Laptop constructor called");
         }
 
