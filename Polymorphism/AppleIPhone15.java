@@ -24,5 +24,6 @@ public class AppleIPhone15 extends AppleIPhone14 {
         System.out.println("RAM        :" + ram+"GB");
         System.out.println("Performance:" + performance);
         System.out.println("OS         :" + os);
+        System.out.println("-----------Thank you for visiting the model--------------");
     }
 }
