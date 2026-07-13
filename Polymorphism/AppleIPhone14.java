@@ -12,11 +12,12 @@ public class AppleIPhone14 {
         this.modelName = modelName;
         this.processor = "HexaCore";
         this.frontCamera = "12MP True Depth";
-        this.display = "6.1 inches";
+        this.display = display;
         this.storage = "128GB";
 
     }
     void modelDetails(){
+        System.out.println("----------"+modelName+"----------");
         System.out.println("IPhone Model:" + modelName);
         System.out.println("Processor   :" + processor);
         System.out.println("Display     :" + display);

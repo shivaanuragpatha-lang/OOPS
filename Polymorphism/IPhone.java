@@ -8,5 +8,12 @@ public class IPhone {
         iPhone15.modelDetails();
         AppleIPhone16 iPhone16 = new AppleIPhone16("IPhone16","HexaCore","12MP True Depth","6.1 inches","128GB",(short)3561,"iOS v18","48MP + 12MP",(byte)8,"Apple A18");
         iPhone16.modelDetails();
+        AppleIPhone14 appleIPhone14_Plus = new AppleIPhone14("IPhone14 Plus","HexaCore","12MP True Depth","6.7 inches","128GB");
+        appleIPhone14_Plus.modelDetails();
+        AppleIPhone15 iPhone15_Plus = new AppleIPhone15("IPhone15","HexaCore","12MP True Depth","6.7 inches","128GB",(short)4383,"iOS v17","48MP + 12MP",(byte)6,"Apple A16 Bionic");
+        iPhone15_Plus.modelDetails();
+        
+
+
     }
 }
