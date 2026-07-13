@@ -7,8 +7,8 @@ public class AppleIPhone15 extends AppleIPhone14 {
     String rearCamera;
     String os;
 
-    public AppleIPhone15(String processor, String frontCamera, String display, String storage, short battery, String os, String rearCamera, byte ram, String performance) {
-        super(processor, frontCamera, display, storage);
+    public AppleIPhone15(String modelName,String processor, String frontCamera, String display, String storage, short battery, String os, String rearCamera, byte ram, String performance) {
+        super(modelName,processor, frontCamera, display, storage);
         this.battery = battery;
         this.os = os;
         this.rearCamera = rearCamera;
