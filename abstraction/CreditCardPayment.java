@@ -1,8 +1,8 @@
 package com.java.OOPS.abstraction;
 
 public class CreditCardPayment extends Payment {
-    public CreditCardPayment(String paymentMode, String id, String paymentDate) {
-        super(paymentMode, id, paymentDate);
+    public CreditCardPayment(String customerName, String paymentMode, String id, String paymentDate) {
+        super(customerName, paymentMode, id, paymentDate);
         
     }
 
