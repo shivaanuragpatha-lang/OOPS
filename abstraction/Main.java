@@ -26,6 +26,7 @@ public class Main {
                 if(orderService.processOrder(amount)){
                     System.out.println("Payment processed successfully using cash");
                 }
+                break;
             case 2:
                 payment = new CreditCardPayment("Karthik","Credit Card","A62","04-06-2025");
                 orderService = new OrderService(payment);
@@ -37,6 +38,7 @@ public class Main {
                 if(orderService.processOrder(amount)){
                     System.out.println("Payment processed successfully using cash");
                 }
+                break;
             case 3:
                 payment = new DebitCardPayment("Shiva","Debit Card","A41","14-06-2025");
                 orderService = new OrderService(payment);
@@ -48,6 +50,7 @@ public class Main {
                 if(orderService.processOrder(amount)){
                     System.out.println("Payment processed successfully using Debit Card");
                 }
+                break;
             case 4:
                 payment = new UPIpayment("Manisai","UPI","A64","12-05-2025");
                 orderService = new OrderService(payment);
@@ -82,11 +85,10 @@ public class Main {
                 System.out.println("Enter the OTP:");
                 otp = sc.nextInt();
                 payment.otpValidation(otp);
-                if(orderService.processOrder(amount)){
+                if(orderService.processOrder(amount)) {
                     if (upiApp == 1) {
                         System.out.println("Payment done successfully using Phonepe");
-                    }
-                    else if (upiApp == 2)
+                    } else if (upiApp == 2)
                         System.out.println("Payment done successfully using Gpay");
                     else if (upiApp == 3)
                         System.out.println("Payment done successfully using Bharatpe");
@@ -94,6 +96,9 @@ public class Main {
                         System.out.println("Payment done successfully using Paytm");
 
                 }
+            break;
+            default:
+                System.out.println("Invalid choice");
 
 
         }
