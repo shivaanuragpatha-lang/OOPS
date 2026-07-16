@@ -62,8 +62,8 @@ public class Main {
                 int upiApp = sc.nextInt();
                 switch(upiApp){
                     case 1:
-                        System.out.println("Initiating payment through Phonepe");
-                        System.out.println("Enter the amount you want to pay:");
+                        System.out.println("Initiating payment through Phonepe ");
+                        System.out.println("Enter the amount you want to pay: ");
                         break;
                     case 2:
                         System.out.println("Initiating payment through Gpay");
