@@ -5,7 +5,7 @@ public class UPIpayment extends Payment{
         super(customerName, paymentMode, id, paymentDate);
     }
     public boolean pay(double amount) {
-        System.out.println("Payment doen successfully using UPI"+amount);
+        System.out.println("Payment done successfully using UPI: "+amount);
         return true;
     }
 }
