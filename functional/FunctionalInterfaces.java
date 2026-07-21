@@ -10,13 +10,13 @@ public class FunctionalInterfaces {
     public static void main(String[] args) {
         //Predicate
         Predicate<String> length = (str) -> str.length() >= 5 && str.length() <= 10;
-        System.out.println(length.test("madhudsfasdfasd"));
+        System.out.println(length.test("Shiva"));
 
         Customers customer = new Customers();
-        customer.setId(1111);
-        customer.setName("madhu");
-        customer.setEmail("madhu@gmail.com");
-        customer.setPhoneNo("+91-97427661232");
+        customer.setId(1431);
+        customer.setName("Shiva");
+        customer.setEmail("shiva1431@gmail.com");
+        customer.setPhoneNo("+91-8023469517");
         customer.setAddress("Hyderabad");
 
         Consumer<Customers> printCustomer = (customer1) -> {
