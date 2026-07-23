@@ -1,0 +1,51 @@
+id,name,MRP,discountPercentage,availability,company,category,manufacturedYear
+1,Laptop Pro X1,85000,15,TRUE,Dell,Electronics,2024
+2,Smartphone Galaxy S24,75000,10,TRUE,Samsung,Electronics,2024
+3,Wireless Headphones,12000,20,TRUE,Sony,Electronics,2023
+4,Smart Watch Series 9,45000,5,FALSE,Apple,Electronics,2024
+5,4K Smart TV 55 inch,65000,12,TRUE,LG,Electronics,2023
+6,Gaming Console PS6,55000,0,TRUE,Sony,Electronics,2024
+7,Tablet iPad Air,52000,8,TRUE,Apple,Electronics,2023
+8,Bluetooth Speaker,8000,25,FALSE,JBL,Electronics,2022
+9,Digital Camera DSLR,48000,10,TRUE,Canon,Electronics,2023
+10,Power Bank 20000mAh,3500,15,TRUE,Anker,Electronics,2024
+11,Refrigerator Double Door,35000,10,TRUE,Whirlpool,Home Appliances,2023
+12,Washing Machine Front Load,42000,8,TRUE,LG,Home Appliances,2024
+13,Microwave Oven,15000,12,FALSE,Samsung,Home Appliances,2023
+14,Air Conditioner 1.5 Ton,45000,15,TRUE,Daikin,Home Appliances,2024
+15,Air Purifier,18000,20,FALSE,Philips,Home Appliances,2023
+16,Vacuum Cleaner,12000,10,FALSE,Dyson,Home Appliances,2022
+17,Water Heater,8500,5,TRUE,Bajaj,Home Appliances,2023
+18,Induction Cooktop,4500,15,TRUE,Prestige,Home Appliances,2024
+19,Mixer Grinder,6000,10,TRUE,Preethi,Home Appliances,2023
+20,Electric Kettle,2500,20,TRUE,Bosch,Home Appliances,2024
+21,Men's Casual Shirt,1500,30,TRUE,Raymond,Fashion,2024
+22,Women's Kurti,1200,25,FALSE,FabIndia,Fashion,2024
+23,Denim Jeans,2000,20,FALSE,Levi's,Fashion,2023
+24,Running Shoes,3500,15,FALSE,Nike,Fashion,2024
+25,Leather Wallet,1800,10,FALSE,Fossil,Fashion,2023
+26,Sunglasses,2500,35,FALSE,Ray-Ban,Fashion,2024
+27,Wrist Watch Analog,5000,10,TRUE,Titan,Fashion,2023
+28,Backpack,2200,15,TRUE,American Tourister,Fashion,2024
+29,Formal Shoes,4000,20,TRUE,Bata,Fashion,2023
+30,Winter Jacket,3800,25,TRUE,Columbia,Fashion,2024
+31,Java Programming Guide,650,10,TRUE,O'Reilly,Books,2024
+32,Data Structures in C++,550,15,FALSE,Pearson,Books,2023
+33,Economics Principles,480,5,TRUE,McGraw Hill,Books,2024
+34,Algorithms Handbook,720,12,FALSE,Cambridge Press,Books,2023
+35,Python for Data Science,590,10,TRUE,Packt,Books,2024
+36,Web Development Complete,680,8,TRUE,Wrox,Books,2023
+37,Machine Learning Basics,750,15,TRUE,MIT Press,Books,2024
+38,Database Management,520,10,FALSE,Elsevier,Books,2023
+39,Operating Systems,600,5,FALSE,Wiley,Books,2024
+40,Computer Networks,580,12,TRUE,Springer,Books,2023
+41,Cricket Bat,2500,10,FALSE,MRF,Sports,2024
+42,Football FIFA Quality,1800,15,FALSE,Adidas,Sports,2023
+43,Tennis Racket,3200,20,TRUE,Wilson,Sports,2024
+44,Badminton Racket,1500,10,TRUE,Yonex,Sports,2023
+45,Yoga Mat,800,25,TRUE,Strauss,Sports,2024
+46,Dumbbells Set 10kg,2000,15,FALSE,Lifelong,Sports,2024
+47,Cycling Helmet,1200,10,FALSE,Steelbird,Sports,2023
+48,Swimming Goggles,650,20,FALSE,Speedo,Sports,2024
+49,Basketball,1400,12,TRUE,Spalding,Sports,2023
+50,Table Tennis Set,1100,15,TRUE,Cosco,Sports,2024
